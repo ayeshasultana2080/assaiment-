@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#health-food {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side h1 {
+    color: #5B5B5B;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.left-side h1 samp {
+    color: orange;
+}
+
+.left-side p {
+    color: #828282;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.btn button {
+    padding: 10px 15px;
+    background-color: tomato;
+    border: none;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: azure;
+    font-weight: bolder;
+}
+
+.right-side img {
+    width: 600px;
+
+}
+
+#about-me {
+    background-image: url(./img/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.left-body img {
+    width: 340px;
+
+}
+
+.right-body h1 {
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+
+
+.right-body {
+    width: 540px;
+}
+
+.right-body p {
+    color: #828282;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.left-body {
+    width: 50px;
+}
+
+.My-recipies {
+    padding: 50px 0px;
+
+}
+
+.My-recipies h1 {
+    text-align: center;
+
+}
+
+.My-recipies p {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.My-recipies-detail {
+    display: flex;
+}
+
+.My-recipies-img img {
+    width: 100%;
+}
+
+.My-recipies-text h1 {
+    text-align: left;
+}
+
+.My-recipies-text p {
+    text-align: justify;
+}
+
+.My-recipies-card {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.main-card {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.food {
+    color: orange;
+}
+
+.card p {
+    color: white;
+    margin-top: 20px;
+}
+
+.card h1 {
+    color: #5B5B5B;
+}
